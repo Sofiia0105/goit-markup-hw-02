@@ -110,7 +110,8 @@ a {
 }
 
 .team {
-    background-color: #f4f4fd
+    background-color: #f4f4fd;
+    text-transform: capitalize;
 }
 .team .team-title {
         font-weight: 700;
@@ -122,6 +123,11 @@ a {
         text-align: center;
         color: #2e2f42;
 }
+
+.team .team-member {
+    background-color: #FFFFFF;
+}
+
 .team .team-name {
     font-weight: 500;
         font-size: 20px;
